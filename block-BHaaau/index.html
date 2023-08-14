@@ -1,15 +1,60 @@
-<!---
-### Create a page according to the layout shown below
-
-![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
-
-#### Problems for exercise 2 in the layout
-
-- Each parent container has width of 600px and border of 1px;
-- Each children box has width 180px and height 100px as well as margin of 10px;
-- Each child box which is having border has border-width 1px.
-- Note in the first container the boxes do not have any border.
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model Assignment 3</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>The Box Model, Box-sizing & Box-shadow</h1>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <header>
+                <h2>Exercise1</h2>
+            </header>
+            <div class="square"></div>
+            <div class="circle1"><p class="p1">Content</p></div>
+            <div class="circle2"><p class="p2">Padding</p></div>
+            <div class="circle3"><p class="p3">Border</p></div>
+            <div class="circle4"><p class="p4">Margin</p></div>
+        </section>
+        <hr class="hr2">
+        <section>
+            <header>
+                <h2>Exercise2</h2>
+                <p class="p5">no border on these boxes.</p>
+            </header>
+            <div class="bigrec1">
+                <div class="rec1"></div>
+                <div class="rec2"></div>
+                <div class="rec3"></div>
+            </div>
+        </section>
+        <hr class="hr3">
+        <section>
+            <header>
+                <p class="p6">1px border on these boxes.</p>
+            </header>
+            <div class="bigrec2">
+                <div class="rec4"></div>
+                <div class="rec5"></div>
+                <div class="rec6"></div>
+            </div>
+        </section>
+        <hr class="hr4">
+        <secton>
+            <header>
+                <p class="p7">1px border on these boxes but they are in same line.</p>
+            </header>
+            <div class="bigrec3">
+                <div class="rec7"></div>
+                <div class="rec8"></div>
+                <div class="rec9"></div>
+            </div>
+        </secton>
+    </main>
+</body>
+</html>
